@@ -1,36 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="576f7f37-8924-49f0-beb6-d559907f5304" name="Default Changelist" comment="" />
+    <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/init_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema_base.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p6_ocr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p6_ocr.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1atcfK4AvCkhbVXKvwVsaQBV8rH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="74e68caf-2e6d-4f5e-b85a-fde6489ebe64">
+        <node key="OCR_P6" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="74e68caf-2e6d-4f5e-b85a-fde6489ebe64" />
+    </expanded>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1atd58l0Y3UoccBusmx634FUe1n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="576f7f37-8924-49f0-beb6-d559907f5304" name="Default Changelist" comment="" />
-      <created>1587558432787</created>
+      <changelist id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="" />
+      <created>1587558637123</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587558432787</updated>
-      <workItem from="1587558435734" duration="101000" />
+      <updated>1587558637123</updated>
+      <workItem from="1587558638788" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -38,9 +80,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="178" key="SettingsEditor" timestamp="1587558534449">
+    <state x="771" y="215" key="#SQL_Dialects" timestamp="1587565989785">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state x="667" y="178" key="SettingsEditor/0.0.2560.1276@0.0.2560.1276" timestamp="1587558534449" />
+    <state x="771" y="215" key="#SQL_Dialects/0.0.2560.1276@0.0.2560.1276" timestamp="1587565989785" />
+    <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587566116552">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1587566116552" />
+    <state x="1032" y="268" key="ExecutionTargetDialog" timestamp="1587568018343">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state x="1032" y="268" key="ExecutionTargetDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1587568018343" />
   </component>
 </project>
