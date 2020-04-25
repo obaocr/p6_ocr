@@ -1,0 +1,6 @@
+2020-04-25 16:40:28,950 INFO c.m.p.App [main] Application Main
+2020-04-25 16:40:30,004 INFO c.m.p.d.AcccountPersonDaoImpl [main] getByEmail
+2020-04-25 16:40:30,527 INFO c.m.p.d.AcccountPersonDaoImpl [main] getCount
+2020-04-25 16:40:30,611 INFO c.m.p.d.AcccountPersonDaoImpl [main] getAll
+2020-04-25 16:40:30,707 INFO c.m.p.d.PersonDaoImpl [main] getByEmail
+2020-04-25 16:40:30,756 INFO c.m.p.d.PersonDaoImpl [main] getByEmail
