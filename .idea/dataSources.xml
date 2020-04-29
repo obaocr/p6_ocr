@@ -8,5 +8,11 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="testdb" uuid="ea7483c8-84dd-4e20-ab5a-3b7e31957a97">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:testdb</jdbc-url>
+    </data-source>
   </component>
 </project>

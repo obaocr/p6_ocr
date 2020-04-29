@@ -1,6 +1,30 @@
-2020-04-25 16:40:28,950 INFO c.m.p.App [main] Application Main
-2020-04-25 16:40:30,004 INFO c.m.p.d.AcccountPersonDaoImpl [main] getByEmail
-2020-04-25 16:40:30,527 INFO c.m.p.d.AcccountPersonDaoImpl [main] getCount
-2020-04-25 16:40:30,611 INFO c.m.p.d.AcccountPersonDaoImpl [main] getAll
-2020-04-25 16:40:30,707 INFO c.m.p.d.PersonDaoImpl [main] getByEmail
-2020-04-25 16:40:30,756 INFO c.m.p.d.PersonDaoImpl [main] getByEmail
+2020-04-29 21:09:37,192 INFO c.m.p.App [main] Application Main
+2020-04-29 21:09:38,273 INFO c.m.p.AppConfig [main] oracle.jdbc.driver.OracleDriver.class.getName():oracle.jdbc.driver.OracleDriver
+2020-04-29 21:09:38,273 INFO c.m.p.AppConfig [main] env.username:OCR_P6
+2020-04-29 21:09:38,274 INFO c.m.p.AppConfig [main] env.password:racf99
+2020-04-29 21:09:38,275 INFO c.m.p.AppConfig [main] env.url:jdbc:oracle:thin:@localhost:1521:XE
+2020-04-29 21:09:38,640 INFO c.m.p.s.MainServiceImpl [main] login
+2020-04-29 21:09:38,640 INFO c.m.p.d.UserDaoImpl [main] getByEmail
+2020-04-29 21:09:38,855 INFO c.m.p.d.AcccountUserDaoImpl [main] getCount
+2020-04-29 21:09:38,929 INFO c.m.p.d.AcccountUserDaoImpl [main] getAll
+2020-04-29 21:09:39,060 INFO c.m.p.s.MainServiceImpl [main] addRelationByEmail
+2020-04-29 21:09:39,060 INFO c.m.p.d.UserDaoImpl [main] getByEmail
+2020-04-29 21:09:39,108 INFO c.m.p.s.MainServiceImpl [main] creditAccount
+2020-04-29 21:09:39,109 INFO c.m.p.d.AcccountUserDaoImpl [main] getByUserId
+2020-04-29 21:09:39,111 INFO c.m.p.d.OperationDaoImpl [main] createOperation
+2020-04-29 21:09:39,125 INFO c.m.p.d.AcccountDaoImpl [main] updateBalance
+2020-04-29 21:09:39,170 INFO c.m.p.s.MainServiceImpl [main] externalTransferAccount
+2020-04-29 21:09:39,170 INFO c.m.p.d.AcccountUserDaoImpl [main] getByUserId
+2020-04-29 21:09:39,211 INFO c.m.p.s.MainServiceImpl [main] externalTransferAccount
+2020-04-29 21:09:39,211 INFO c.m.p.d.AcccountUserDaoImpl [main] getByUserId
+2020-04-29 21:09:39,213 INFO c.m.p.d.OperationDaoImpl [main] createOperation
+2020-04-29 21:09:39,215 INFO c.m.p.d.AcccountDaoImpl [main] updateBalance
+2020-04-29 21:09:39,258 INFO c.m.p.s.MainServiceImpl [main] transferToAnotherAccount
+2020-04-29 21:09:39,258 INFO c.m.p.d.RateDaoImpl [main] getRate
+2020-04-29 21:09:39,260 INFO c.m.p.d.AcccountUserDaoImpl [main] getByEmail
+2020-04-29 21:09:39,262 INFO c.m.p.d.AcccountUserDaoImpl [main] getByUserId
+2020-04-29 21:09:39,264 INFO c.m.p.s.MainServiceImpl [main] Taux de commission:0.5
+2020-04-29 21:09:39,264 INFO c.m.p.d.OperationDaoImpl [main] createOperation
+2020-04-29 21:09:39,268 INFO c.m.p.d.AcccountDaoImpl [main] updateBalance
+2020-04-29 21:09:39,269 INFO c.m.p.d.OperationDaoImpl [main] createOperation
+2020-04-29 21:09:39,274 INFO c.m.p.d.AcccountDaoImpl [main] updateBalance

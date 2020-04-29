@@ -1,7 +1,12 @@
 package com.mybuddy.pay.service;
 
-import com.mybuddy.pay.model.ServiceResult;
+import com.mybuddy.pay.model.ServiceResponse;
+import com.mybuddy.pay.model.User;
 
 public interface MainService {
-    public ServiceResult addRelationByEmail(String accountEmail, String relationEmail);
+    public User login(String email, String password);
+    public ServiceResponse addRelationByEmail(long userId, String relationEmail);
+    public ServiceResponse creditAccount(long userId, Double amount, String description);
+    public ServiceResponse externalTransferAccount(long userId, Double amount, String description);
+    public ServiceResponse transferToAnotherAccount(long userId, String beneficiaryEmail, Double amount, String description);
 }

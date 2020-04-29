@@ -2,6 +2,8 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/main/resources/data_init.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/data_init_test.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/data_schema_test.sql" dialect="H2" />
     <file url="PROJECT" dialect="Oracle" />
   </component>
 </project>

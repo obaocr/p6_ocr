@@ -20,16 +20,17 @@ public class RelationDaoImpl implements RelationDao {
 
     private static final Logger log = LogManager.getLogger(RelationDaoImpl.class);
     private final String GET_REL_COUNT_BY_EMAIL = "SELECT count(*) FROM P6_RELATION T1, P6_PERSON T2, P6_PERSON T3" +
-            "  WHERE T1.PERSON_ID = T2.ID AND T1.RELATION_ID  = T3.ID  AND T2.EMAIL = ? AND T3.EMAIL = ?";
+            "  WHERE T1.PERSON_ID = T2.ID AND T1.RELATION_ID  = T3.ID  AND T2.ID = ? AND T3.EMAIL = ?";
+    private final String INS_REL = "INSERT INTO P6_RELATION (PERSON_ID, RELATION_ID) VALUES (?,?)";
 
-    public int countRelationByEmail(String emailAccount, String emailRelation) {
+    public int countRelationByEmail(long userId, String emailRelation) {
         return jdbcTemplate.queryForObject(
-                GET_REL_COUNT_BY_EMAIL, new Object[] { emailAccount, emailRelation }, Integer.class);
+                GET_REL_COUNT_BY_EMAIL, new Object[] { userId, emailRelation }, Integer.class);
     }
 
     public int addRelationById(long PersonId, long relationId) {
         try {
-            return jdbcTemplate.update("INSERT INTO P6_RELATION (PERSON_ID, RELATION_ID) VALUES (?,?)", PersonId, relationId);
+            return jdbcTemplate.update(INS_REL, PersonId, relationId);
         } catch (Exception e) {
             log.error("Erreur de création relation comptes :" + e.toString());
             return 0;

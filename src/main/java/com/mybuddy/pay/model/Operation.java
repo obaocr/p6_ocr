@@ -5,14 +5,33 @@ import java.util.Date;
 public class Operation {
     private long id;
     private long accountId;
-    private long beneficiaryId;
+    private Long beneficiaryId;
     private double amount;
+    private double fee;
     private Date operationDate;
     private String type;
     private String flow;
     private String description;
+    private String bicBenef;
+    private String ibanBenef;
     private Date createDate;
     private Date updateDate;
+
+    public Operation() {
+
+    }
+
+    public Operation(long accountId, Long beneficiaryId, double amount, double fee, String type, String flow, String description, String bicBenef, String ibanBenef) {
+        this.accountId = accountId;
+        this.beneficiaryId = beneficiaryId;
+        this.amount = amount;
+        this.fee = fee;
+        this.type = type;
+        this.flow = flow;
+        this.description = description;
+        this.bicBenef = bicBenef;
+        this.ibanBenef = ibanBenef;
+    }
 
     public long getId() {
         return id;
@@ -30,11 +49,11 @@ public class Operation {
         this.accountId = accountId;
     }
 
-    public long getBeneficiaryId() {
+    public Long getBeneficiaryId() {
         return beneficiaryId;
     }
 
-    public void setBeneficiaryId(long beneficiaryId) {
+    public void setBeneficiaryId(Long beneficiaryId) {
         this.beneficiaryId = beneficiaryId;
     }
 
@@ -44,6 +63,14 @@ public class Operation {
 
     public void setAmount(double amount) {
         this.amount = amount;
+    }
+
+    public double getFee() {
+        return fee;
+    }
+
+    public void setFee(double fee) {
+        this.fee = fee;
     }
 
     public Date getOperationDate() {
@@ -78,6 +105,22 @@ public class Operation {
         this.description = description;
     }
 
+    public String getBicBenef() {
+        return bicBenef;
+    }
+
+    public void setBicBenef(String bicBenef) {
+        this.bicBenef = bicBenef;
+    }
+
+    public String getIbanBenef() {
+        return ibanBenef;
+    }
+
+    public void setIbanBenef(String ibanBenef) {
+        this.ibanBenef = ibanBenef;
+    }
+
     public Date getCreateDate() {
         return createDate;
     }
@@ -93,4 +136,5 @@ public class Operation {
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
     }
+
 }

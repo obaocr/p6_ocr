@@ -2,193 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_3_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_maven_plugin_3_1_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc7_12_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bcel_bcel_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_integration_tools_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_logging_api_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml5_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_skin_model_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_archiver_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_compat_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_assembly_plugin_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_report_plugin_3_0_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_impl_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_file_management_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_artifact_transfer_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_filtering_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_io_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_report_parser_3_0_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_reflect_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_ant_indy_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_dateutil_indy_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_docgenerator_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_groovydoc_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_indy_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_templates_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_archiver_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_io_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_resources_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_iq80_snappy_snappy_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_jacoco_maven_plugin_maven_plugin_0_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_core_0_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_report_0_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_7_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountPersonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountPersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/PersonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/AccountPersonRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/PersonRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/AccountPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Relation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/ServiceResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data_init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/PersonDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/database/AppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/OperationFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/RateFeeRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/RateFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data_init_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data_schema_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--23-avril-2020-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--23-avril-2020-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--23-avril-2020-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--23-avril-2020-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--23-avril-2020-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--24-avril-2020-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-04/spring-boot-logger-log4j2--25-avril-2020-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring-boot-logger-log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring-boot-logger-log4j2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pay.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema_base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountPersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountPersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/AccountPersonRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/AccountUserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/PersonRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/UserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/AccountPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/AccountUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/ServiceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/ServiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/PersonDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/UserDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/database/AppConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AcccountPersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AccountPersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/PersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/AccountPersonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/PersonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/AccountPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/ServiceResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/PersonDaoImplTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="ExecutionTargetDialog">
     <checked>
@@ -227,7 +129,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DatabaseDriversLRU" value="oracle&#10;h2" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -269,6 +171,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.AccountDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
@@ -284,7 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
@@ -293,13 +210,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.PersonDaoImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.UserDaoImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDaoImplTest.getByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoImplTest.getByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
@@ -308,24 +225,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.PersonDaoImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.UserDaoImplTest" />
       <option name="METHOD_NAME" value="getByEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonDaoImplTest.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.PersonDaoImplTest" />
-      <option name="METHOD_NAME" value="getCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,10 +235,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.PersonDaoImplTest.getByEmail" />
+        <item itemvalue="JUnit.AccountDaoImplTest" />
+        <item itemvalue="JUnit.UserDaoImplTest" />
+        <item itemvalue="JUnit.UserDaoImplTest.getByEmail" />
         <item itemvalue="JUnit.AppConfigTest" />
-        <item itemvalue="JUnit.PersonDaoImplTest" />
-        <item itemvalue="JUnit.PersonDaoImplTest.getCount" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +259,11 @@
       <workItem from="1587748546708" duration="1828000" />
       <workItem from="1587814687830" duration="1794000" />
       <workItem from="1587816639805" duration="6443000" />
+      <workItem from="1587969538520" duration="32183000" />
+      <workItem from="1588074430438" duration="687000" />
+      <workItem from="1588075157213" duration="12544000" />
+      <workItem from="1588143824287" duration="15722000" />
+      <workItem from="1588172339214" duration="10553000" />
     </task>
     <servers />
   </component>
@@ -365,19 +271,28 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="901" y="302" key="#Inspections" timestamp="1587980311656">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state x="901" y="302" key="#Inspections/0.0.2560.1276@0.0.2560.1276" timestamp="1587980311656" />
+    <state x="771" y="211" width="1018" height="917" key="#Intentions" timestamp="1588176415705">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state x="771" y="211" width="1018" height="917" key="#Intentions/0.0.2560.1276@0.0.2560.1276" timestamp="1588176415705" />
     <state x="771" y="215" key="#SQL_Dialects" timestamp="1587565989785">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state x="771" y="215" key="#SQL_Dialects/0.0.2560.1276@0.0.2560.1276" timestamp="1587565989785" />
-    <state x="871" y="291" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587648200054">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588169961877">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1587566116552" />
+    <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1588169961877" />
     <state x="871" y="291" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1282@0.0.2560.1282" timestamp="1587648200054" />
-    <state x="1037" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1587823236979">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1588180463324">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1276@0.0.2560.1276" timestamp="1587713726270" />
+    <state x="1035" y="255" key="#com.intellij.ide.util.MemberChooser/0.0.2556.1271@0.0.2556.1271" timestamp="1588014864053" />
+    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1276@0.0.2560.1276" timestamp="1588180463324" />
     <state x="1037" y="257" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1282@0.0.2560.1282" timestamp="1587823236979" />
     <state x="943" y="366" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587663056433">
       <screen x="0" y="0" width="2560" height="1282" />
@@ -399,10 +314,11 @@
       <screen x="0" y="0" width="2560" height="1282" />
     </state>
     <state x="1034" y="506" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1282@0.0.2560.1282" timestamp="1587645196214" />
-    <state x="328" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587714863500">
+    <state x="328" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588150157241">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state x="328" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1587714863500" />
+    <state x="327" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2556.1271@0.0.2556.1271" timestamp="1588014675467" />
+    <state x="328" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1588150157241" />
     <state x="943" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587717813291">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
@@ -416,35 +332,49 @@
       <screen x="0" y="0" width="2560" height="1282" />
     </state>
     <state x="1006" y="336" key="FileChooserDialogImpl/0.0.2560.1282@0.0.2560.1282" timestamp="1587643652482" />
-    <state width="2504" height="214" key="GridCell.Tab.0.bottom" timestamp="1587825765141">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state width="2504" height="356" key="GridCell.Tab.0.bottom" timestamp="1588181126961">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="346" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1587760844192" />
+    <state width="2500" height="401" key="GridCell.Tab.0.bottom/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
+    <state width="2504" height="356" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588181126961" />
     <state width="2504" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
-    <state width="2504" height="214" key="GridCell.Tab.0.center" timestamp="1587825765141">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state width="2504" height="297" key="GridCell.Tab.0.bottom/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
+    <state width="2504" height="356" key="GridCell.Tab.0.center" timestamp="1588181126960">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="346" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1587760844192" />
+    <state width="2500" height="401" key="GridCell.Tab.0.center/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
+    <state width="2504" height="356" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588181126960" />
     <state width="2504" height="214" key="GridCell.Tab.0.center/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
-    <state width="2504" height="214" key="GridCell.Tab.0.left" timestamp="1587825765141">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state width="2504" height="297" key="GridCell.Tab.0.center/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
+    <state width="2504" height="356" key="GridCell.Tab.0.left" timestamp="1588181126960">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="346" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1587760844192" />
+    <state width="2500" height="401" key="GridCell.Tab.0.left/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
+    <state width="2504" height="356" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588181126960" />
     <state width="2504" height="214" key="GridCell.Tab.0.left/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
-    <state width="2504" height="214" key="GridCell.Tab.0.right" timestamp="1587825765141">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state width="2504" height="297" key="GridCell.Tab.0.left/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
+    <state width="2504" height="356" key="GridCell.Tab.0.right" timestamp="1588181126960">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="346" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1587760844192" />
+    <state width="2500" height="401" key="GridCell.Tab.0.right/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
+    <state width="2504" height="356" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588181126960" />
     <state width="2504" height="214" key="GridCell.Tab.0.right/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
-    <state x="693" y="213" key="Maven.ArtifactSearchDialog" timestamp="1587667852078">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state width="2504" height="297" key="GridCell.Tab.0.right/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
+    <state width="263" height="571" key="HiddenNamespacesPopup" timestamp="1588146741093">
+      <screen x="0" y="0" width="2560" height="1276" />
     </state>
+    <state width="263" height="571" key="HiddenNamespacesPopup/0.0.2560.1276@0.0.2560.1276" timestamp="1588146741093" />
+    <state x="693" y="212" key="Maven.ArtifactSearchDialog" timestamp="1588153510081">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state x="693" y="212" key="Maven.ArtifactSearchDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1588153510081" />
     <state x="693" y="213" key="Maven.ArtifactSearchDialog/0.0.2560.1282@0.0.2560.1282" timestamp="1587667852078" />
-    <state x="906" y="219" key="SettingsEditor" timestamp="1587817330258">
-      <screen x="0" y="0" width="2560" height="1282" />
+    <state x="906" y="220" key="SettingsEditor" timestamp="1588007528219">
+      <screen x="0" y="0" width="2560" height="1286" />
     </state>
     <state x="667" y="178" key="SettingsEditor/0.0.2560.1276@0.0.2560.1276" timestamp="1587713415382" />
     <state x="906" y="219" key="SettingsEditor/0.0.2560.1282@0.0.2560.1282" timestamp="1587817330258" />
+    <state x="906" y="220" key="SettingsEditor/0.0.2560.1286@0.0.2560.1286" timestamp="1588007528219" />
     <state x="771" y="307" key="Vcs.Push.Dialog.v2" timestamp="1587568382614">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
@@ -478,7 +408,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/PersonDaoImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
