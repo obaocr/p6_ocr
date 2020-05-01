@@ -1,38 +1,41 @@
 package com.mybuddy.pay.dao;
 
 import com.mybuddy.pay.AppConfigTest;
-import com.mybuddy.pay.model.User;
+import com.mybuddy.pay.model.AccountUser;
+import com.mybuddy.pay.model.RateFee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
+import org.springframework.transaction.annotation.Transactional;
 
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringJUnitConfig(AppConfigTest.class)
-class UserDaoImplTest {
+@Transactional
+public class RateDaoImplTest {
 
     @Autowired
-    UserDao userDao;
+    RateDao rateDao;
 
     @Test
     @Rollback
-    void getByEmail() {
-        User user = userDao.getByEmail("test1@gmail.com");
-        System.out.println("person.getLastName(): "+ user.getLastName());
-        assertTrue(user.getLastName().equals("Martin"));
+    void getRate() {
+        RateFee rateFee = rateDao.getRate("RTFEE");
+        assertTrue(rateFee != null);
+        assertTrue(rateFee.getRate() > 0.0);
     }
 
+
     @Test
     @Rollback
-    void getByEmailShouldReturnException() {
+    void getRateShouldReturnException() {
         try {
-            User user = userDao.getByEmail("xx@xx.xx");
+            RateFee rateFee = rateDao.getRate("x");
         } catch (EmptyResultDataAccessException e) {
             assertTrue(e.getMessage() != null);
         }
-
     }
+
 }

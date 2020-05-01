@@ -2,6 +2,10 @@ package com.mybuddy.pay.model;
 
 import java.util.Date;
 
+/**
+ * RateFee model
+ */
+
 public class RateFee {
     private long id;
     private String rateCode;
@@ -33,19 +37,23 @@ public class RateFee {
         this.rate = rate;
     }
 
-    public Date getCreateDate() {
-        return createDate;
+    public Date getCreateDate()
+    {
+        return createDate != null ? new Date(createDate.getTime()) : null;
     }
 
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
+    public void setCreateDate(Date createDate)
+    {
+        this.createDate = createDate != null ? new Date(createDate.getTime()) : null;
     }
 
-    public Date getUpdateDate() {
-        return updateDate;
+    public Date getUpdateDate()
+    {
+        return updateDate != null ? new Date(updateDate.getTime()) : null;
     }
 
-    public void setUpdateDate(Date updateDate) {
-        this.updateDate = updateDate;
+    public void setUpdateDate(Date updateDate)
+    {
+        this.updateDate = updateDate != null ? new Date(updateDate.getTime()) : null;
     }
 }

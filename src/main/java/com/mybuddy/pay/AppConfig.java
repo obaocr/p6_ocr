@@ -1,6 +1,5 @@
 package com.mybuddy.pay;
 
-import com.mybuddy.pay.dao.RelationDaoImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +18,10 @@ import javax.sql.DataSource;
 
 // TODO a voir si @ComponentScan( est indispensable
 
+/**
+ * AppConfig (Spring configuration) class for Pay myBuddy application
+ */
+
 @Configuration
 @ComponentScan("com.mybuddy")
 @PropertySource("classpath:application.properties")
@@ -32,12 +35,14 @@ public class AppConfig {
 
     @Bean
     public DataSource dataSource() {
+        // Password in environment variable
+        String bdd_password = System.getenv("P6OCR_PWD");
+        log.info("bdd_password:"+bdd_password);
         DriverManagerDataSource ds = new DriverManagerDataSource();
-        //ds.setDriverClassName(oracle.jdbc.driver.OracleDriver.class.getName());
         ds.setDriverClassName(env.getProperty("jdbc.driver"));
         ds.setUrl(env.getProperty("jdbc.url"));
         ds.setUsername(env.getProperty("jdbc.username"));
-        ds.setPassword(env.getProperty("jdbc.password"));
+        ds.setPassword(bdd_password);
         log.info("oracle.jdbc.driver.OracleDriver.class.getName():"+oracle.jdbc.driver.OracleDriver.class.getName());
         log.info("env.username:"+env.getProperty("jdbc.username"));
         log.info("env.password:"+env.getProperty("jdbc.password"));

@@ -3,17 +3,15 @@ package com.mybuddy.pay.dao;
 import com.mybuddy.pay.AppConfigTest;
 import com.mybuddy.pay.model.AccountUser;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-// TODO remplacer les 2 annotations @ExtendWith et @ContextConfiguration par @SpringJUnitConfig(AppConfigTest.class) ?
-
-@ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = AppConfigTest.class)
+@SpringJUnitConfig(AppConfigTest.class)
+@Transactional
 class AccountDaoImplTest {
 
     @Autowired
@@ -23,11 +21,29 @@ class AccountDaoImplTest {
     AccountDao accountDao;
 
     @Test
+    @Rollback
     void updateBalance() {
-        AccountUser accountUser = accountUserDao.getByEmail("test1@gmail.com");
-        accountDao.updateBalance(accountUser.getId(), 999.00);
-        assertTrue(accountDao.updateBalance(accountUser.getId(), 999.00) > 0);
-        assertTrue(accountUserDao.getByEmail("test1@gmail.com").getBalance() == 999.00);
+        try {
+            AccountUser accountUser = accountUserDao.getByEmail("test1@gmail.com");
+            accountDao.updateBalance(accountUser.getId(), 999.00);
+            assertTrue(accountDao.updateBalance(accountUser.getId(), 999.00) > 0);
+            assertTrue(accountUserDao.getByEmail("test1@gmail.com").getBalance() == 999.00);
+        } catch (Exception e) {
+
+        }
+
     }
 
+    @Test
+    @Rollback
+    void updateBalanceShouldReturnException() {
+        try {
+            // id 0 does not exists
+            long id = 0;
+            accountDao.updateBalance(id, 999.00);
+        } catch (Exception e) {
+            assertTrue(e.getMessage() != null);
+        }
+
+    }
 }

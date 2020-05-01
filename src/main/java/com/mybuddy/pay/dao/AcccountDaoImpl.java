@@ -1,29 +1,35 @@
 package com.mybuddy.pay.dao;
 
+import com.mybuddy.pay.constants.Query;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+
+import java.sql.SQLException;
+
+/**
+ * Class AcccountDaoImpl for Banking Account
+ */
 
 @Repository
 public class AcccountDaoImpl implements  AccountDao {
 
-    private static final Logger log = LogManager.getLogger(AcccountUserDaoImpl.class);
-    // TODO mettre jour date / time en local ...
-    private final String UPD_ACC_BALANCE = "UPDATE P6_ACCOUNT SET UPDATE_DATE = SYSDATE, BALANCE = ? WHERE ID = ?";
+    private static final Logger log = LogManager.getLogger(AcccountDaoImpl.class);
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
 
-    public int updateBalance (Long Id, Double amount) {
-        try {
+    public Integer updateBalance (Long Id, Double amount) throws SQLException {
             log.info("updateBalance");
-            return jdbcTemplate.update(UPD_ACC_BALANCE, amount, Id);
-        } catch (Exception e) {
-            log.error("Erreur update acccount balance :" + e.toString());
-            return 0;
-        }
+            Integer nbUpd = jdbcTemplate.update(Query.UPD_ACC_BALANCE, amount, Id);
+            if(nbUpd == 0 ) {
+                log.error("updateBalance : no row updated !");
+                throw new SQLException("updateBalance no row affected");
+            }
+            return nbUpd;
     }
 }

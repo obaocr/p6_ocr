@@ -6,6 +6,10 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Class UserRowMapper for JDBC read
+ */
+
 public class UserRowMapper implements RowMapper<User> {
 
     @Override

@@ -1,0 +1,37 @@
+package com.mybuddy.pay.constants;
+
+/**
+ * SQL Queries
+ */
+
+public class Query {
+
+    // AccountUser
+    public static final String GET_ACC_BY_EMAIL = "SELECT T2.ID,T2.PERSON_ID,T2.ACCOUNT_NUMBER,T2.BALANCE,T2.PERSON_ID,T1.EMAIL,PERSON_ID,T1.LASTNAME,T1.FIRSTNAME,T1.IBAN,T1.BIC" +
+            " FROM P6_PERSON T1 JOIN P6_ACCOUNT T2 ON T2.PERSON_ID = T1.ID  WHERE T1.EMAIL = ?";
+    public static final String GET_ACC_BY_ID = "SELECT T2.ID,T2.PERSON_ID,T2.ACCOUNT_NUMBER,T2.BALANCE,T2.PERSON_ID,T1.EMAIL,PERSON_ID,T1.LASTNAME,T1.FIRSTNAME,T1.IBAN,T1.BIC" +
+            " FROM P6_PERSON T1 JOIN P6_ACCOUNT T2 ON T2.PERSON_ID = T1.ID  WHERE T1.ID = ?";
+    public static final String GET_ACC = "SELECT T2.ID,T2.PERSON_ID,T2.ACCOUNT_NUMBER,T2.BALANCE,T2.PERSON_ID,T1.EMAIL,PERSON_ID,T1.LASTNAME,T1.FIRSTNAME,T1.IBAN,T1.BIC" +
+            " FROM P6_PERSON T1 " +
+            " JOIN P6_ACCOUNT T2 ON T2.PERSON_ID = T1.ID";
+    public static final String GET_ACC_COUNT = "SELECT count(*) FROM P6_PERSON T1 JOIN P6_ACCOUNT T2 ON T2.PERSON_ID = T1.ID";
+
+    // Account
+    public static final String UPD_ACC_BALANCE = "UPDATE P6_ACCOUNT SET UPDATE_DATE = SYSDATE, BALANCE = ? WHERE ID = ?";
+
+    // Operation
+    public  static final  String INS_CREDIT_OPERATION = "INSERT INTO P6_OPERATION (ACCOUNT_ID,AMOUNT,FEE,TYPE,FLOW,DESCRIPTION,BIC_BENEF,IBAN_BENEF,BENEFICIARY_ID) VALUES (?,?,?,?,?,?,?,?,?)";
+
+    // Rate
+    public static final String GET_RATE = "SELECT ID,RATE_CODE,RATE FROM P6_RATE WHERE RATE_CODE = ?";
+
+    // Relation
+    public static final String GET_REL_COUNT_BY_EMAIL = "SELECT count(*) FROM P6_RELATION T1, P6_PERSON T2, P6_PERSON T3" +
+            "  WHERE T1.PERSON_ID = T2.ID AND T1.RELATION_ID  = T3.ID  AND T2.ID = ? AND T3.EMAIL = ?";
+    public static final String INS_REL = "INSERT INTO P6_RELATION (PERSON_ID, RELATION_ID) VALUES (?,?)";
+    public static final String GET_RELATIONS = "SELECT T3.ID, T3.EMAIL FROM P6_RELATION T1, P6_PERSON T2, P6_PERSON T3" +
+            "  WHERE T1.PERSON_ID = T2.ID AND T1.RELATION_ID  = T3.ID  AND T2.ID = ?";
+
+    // User
+    public static final String GET_BY_EMAIL = "select ID,EMAIL,PASSWORD,LASTNAME,FIRSTNAME from P6_PERSON where email = ?";
+}

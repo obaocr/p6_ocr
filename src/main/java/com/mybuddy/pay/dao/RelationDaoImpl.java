@@ -1,16 +1,15 @@
 package com.mybuddy.pay.dao;
 
+import com.mybuddy.pay.constants.Query;
+import com.mybuddy.pay.mapper.RelationEmailRowMapper;
+import com.mybuddy.pay.model.RelationEmail;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
-import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.stereotype.Repository;
 
-import java.io.IOException;
-import java.sql.SQLDataException;
-import java.sql.SQLException;
+import java.util.List;
 
 @Repository
 public class RelationDaoImpl implements RelationDao {
@@ -19,21 +18,18 @@ public class RelationDaoImpl implements RelationDao {
     private JdbcTemplate jdbcTemplate;
 
     private static final Logger log = LogManager.getLogger(RelationDaoImpl.class);
-    private final String GET_REL_COUNT_BY_EMAIL = "SELECT count(*) FROM P6_RELATION T1, P6_PERSON T2, P6_PERSON T3" +
-            "  WHERE T1.PERSON_ID = T2.ID AND T1.RELATION_ID  = T3.ID  AND T2.ID = ? AND T3.EMAIL = ?";
-    private final String INS_REL = "INSERT INTO P6_RELATION (PERSON_ID, RELATION_ID) VALUES (?,?)";
 
-    public int countRelationByEmail(long userId, String emailRelation) {
+    public Integer countRelationByEmail(long userId, String emailRelation) {
         return jdbcTemplate.queryForObject(
-                GET_REL_COUNT_BY_EMAIL, new Object[] { userId, emailRelation }, Integer.class);
+                Query.GET_REL_COUNT_BY_EMAIL, new Object[]{userId, emailRelation}, Integer.class);
     }
 
-    public int addRelationById(long PersonId, long relationId) {
-        try {
-            return jdbcTemplate.update(INS_REL, PersonId, relationId);
-        } catch (Exception e) {
-            log.error("Erreur de création relation comptes :" + e.toString());
-            return 0;
-        }
+    public Integer addRelationById(long userId, long relationId) {
+        return jdbcTemplate.update(Query.INS_REL, userId, relationId);
+    }
+
+    public List<RelationEmail> getRelations(long userId) {
+        List<RelationEmail> relationEmails = jdbcTemplate.query(Query.GET_RELATIONS, new Object[]{userId}, new RelationEmailRowMapper());
+        return relationEmails;
     }
 }

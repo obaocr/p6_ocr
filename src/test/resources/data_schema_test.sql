@@ -41,22 +41,22 @@ create table  P6_ACCOUNT (
                              ACTIVE_FLG CHAR(1) NOT NULL,
                              PERSON_ID BIGINT ,
                              CREATE_DATE TIMESTAMP DEFAULT NOW(),
-                             UPDATE_DATE TIMESTAMP DEFAULT NOW()
---                           ,CONSTRAINT FK_ACCOUNT_PERSON  FOREIGN KEY(PERSON_ID) REFERENCES P6_PERSON(ID)
+                             UPDATE_DATE TIMESTAMP DEFAULT NOW(),
+                             CONSTRAINT FK_ACCOUNT_PERSON  FOREIGN KEY(PERSON_ID) REFERENCES P6_PERSON(ID)
 )
 ;
-
 
 create table  P6_RELATION (
                               ID BIGINT auto_increment primary key,
-                              PERSON_ID BIGINT  NOT NULL,
-                              RELATION_ID BIGINT   NOT NULL,
+                              PERSON_ID BIGINT NOT NULL,
+                              RELATION_ID BIGINT NOT NULL,
                               CREATE_DATE TIMESTAMP DEFAULT NOW(),
-                              UPDATE_DATE TIMESTAMP DEFAULT NOW()
---                            CONSTRAINT FK_RELATION_PERSON  FOREIGN KEY(PERSON_ID) REFERENCES P6_PERSON(ID),
---                            CONSTRAINT FK_RELATION_RELATION FOREIGN KEY(RELATION_ID) REFERENCES P6_PERSON(ID)
+                              UPDATE_DATE TIMESTAMP DEFAULT NOW(),
+                              CONSTRAINT FK_RELATION_PERSON  FOREIGN KEY(PERSON_ID) REFERENCES P6_PERSON(ID),
+                              CONSTRAINT FK_RELATION_RELATION FOREIGN KEY(RELATION_ID) REFERENCES P6_PERSON(ID)
 )
 ;
+
 create table  P6_OPERATION (
                                ID BIGINT auto_increment primary key,
                                OPERATION_DATE TIMESTAMP DEFAULT NOW(),
@@ -70,13 +70,13 @@ create table  P6_OPERATION (
                                BIC_BENEF VARCHAR(10),
                                IBAN_BENEF VARCHAR(23),
                                CREATE_DATE TIMESTAMP DEFAULT NOW(),
-                               UPDATE_DATE TIMESTAMP DEFAULT NOW()
---                               ,CONSTRAINT FK_OPERATION_ACCOUNT  FOREIGN KEY(ACCOUNT_ID) REFERENCES P6_ACCOUNT(ID),
---                               CONSTRAINT FK_OPERATION_BENEFICIARY FOREIGN KEY(BENEFICIARY_ID) REFERENCES P6_ACCOUNT(ID)
+                               UPDATE_DATE TIMESTAMP DEFAULT NOW(),
+                               CONSTRAINT FK_OPERATION_ACCOUNT  FOREIGN KEY(ACCOUNT_ID) REFERENCES P6_ACCOUNT(ID),
+                               CONSTRAINT FK_OPERATION_BENEFICIARY FOREIGN KEY(BENEFICIARY_ID) REFERENCES P6_ACCOUNT(ID)
 )
 ;
 
---create unique index IDX_RATE_U1 on P6_RATE (RATE_CODE);
---create unique index IDX_PERSON_U1 on P6_PERSON (EMAIL);
---create unique index IDX_ACCOUNT_U1 on P6_ACCOUNT (ACCOUNT_NUMBER);
---create unique index IDX_RELATION_U1 on P6_RELATION (PERSON_ID,RELATION_ID);
+create unique index IDX_RATE_U1 on P6_RATE (RATE_CODE);
+create unique index IDX_PERSON_U1 on P6_PERSON (EMAIL);
+create unique index IDX_ACCOUNT_U1 on P6_ACCOUNT (ACCOUNT_NUMBER);
+create unique index IDX_RELATION_U1 on P6_RELATION (PERSON_ID,RELATION_ID);

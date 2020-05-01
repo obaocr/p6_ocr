@@ -1,5 +1,9 @@
 package com.mybuddy.pay.model;
 
+/**
+ * Account and User model
+ */
+
 public class AccountUser {
     private long id;
     private long personId;

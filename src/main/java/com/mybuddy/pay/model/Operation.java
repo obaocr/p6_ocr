@@ -2,6 +2,10 @@ package com.mybuddy.pay.model;
 
 import java.util.Date;
 
+/**
+ * Operation model
+ */
+
 public class Operation {
     private long id;
     private long accountId;
@@ -73,12 +77,14 @@ public class Operation {
         this.fee = fee;
     }
 
-    public Date getOperationDate() {
-        return operationDate;
+    public Date getOperationDate()
+    {
+        return operationDate != null ? new Date(operationDate.getTime()) : null;
     }
 
-    public void setOperationDate(Date operationDate) {
-        this.operationDate = operationDate;
+    public void setOperationDate(Date operationDate)
+    {
+        this.operationDate = operationDate != null ? new Date(operationDate.getTime()) : null;
     }
 
     public String getType() {
@@ -121,20 +127,24 @@ public class Operation {
         this.ibanBenef = ibanBenef;
     }
 
-    public Date getCreateDate() {
-        return createDate;
+    public Date getCreateDate()
+    {
+        return createDate != null ? new Date(createDate.getTime()) : null;
     }
 
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
+    public void setCreateDate(Date createDate)
+    {
+        this.createDate = createDate != null ? new Date(createDate.getTime()) : null;
     }
 
-    public Date getUpdateDate() {
-        return updateDate;
+    public Date getUpdateDate()
+    {
+        return updateDate != null ? new Date(updateDate.getTime()) : null;
     }
 
-    public void setUpdateDate(Date updateDate) {
-        this.updateDate = updateDate;
+    public void setUpdateDate(Date updateDate)
+    {
+        this.updateDate = updateDate != null ? new Date(updateDate.getTime()) : null;
     }
 
 }

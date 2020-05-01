@@ -4,11 +4,11 @@
 --alter table p6_RELATION  DISABLE constraint FK_RELATION_RELATION;
 --alter table p6_RELATION  DISABLE constraint FK_RELATION_PERSON;
 
-truncate table P6_RATE;
-truncate table p6_OPERATION;
-truncate table P6_PERSON;
-truncate table P6_ACCOUNT;
-truncate table P6_RELATION;
+--truncate table P6_RATE;
+--truncate table p6_OPERATION;
+--truncate table P6_PERSON;
+--truncate table P6_ACCOUNT;
+--truncate table P6_RELATION;
 
 insert into P6_RATE (RATE_CODE,RATE) values ('RTFEE',0.5);
 
@@ -24,7 +24,7 @@ insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000002',
 insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000003','1',0);
 insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000004','1',0);
 insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000005','1',0);
-insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000006','1',0);
+insert into P6_ACCOUNT (account_number,active_flg,balance) values ('C000000006','1',10000);
 
 update P6_ACCOUNT set PERSON_ID = (select ID from P6_PERSON where email = 'test1@gmail.com') where account_number = 'C000000001';
 update P6_ACCOUNT set PERSON_ID = (select ID from P6_PERSON where email = 'test2@gmail.com') where account_number = 'C000000002';

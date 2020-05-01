@@ -6,6 +6,10 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Class RateFeeRowMapper for JDBC read
+ */
+
 public class RateFeeRowMapper implements RowMapper<RateFee> {
 
     @Override

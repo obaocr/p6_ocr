@@ -1,5 +1,6 @@
 package com.mybuddy.pay.dao;
 
+import com.mybuddy.pay.constants.Query;
 import com.mybuddy.pay.mapper.UserRowMapper;
 import com.mybuddy.pay.model.User;
 import org.apache.logging.log4j.LogManager;
@@ -9,11 +10,14 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+/**
+ * Class UserDaoImpl
+ */
+
 @Repository
 public class UserDaoImpl implements UserDao {
 
     private static final Logger log = LogManager.getLogger(UserDaoImpl.class);
-    private final String GET_BY_EMAIL = "select ID,EMAIL,PASSWORD,LASTNAME,FIRSTNAME from P6_PERSON where email = ?";
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -23,10 +27,11 @@ public class UserDaoImpl implements UserDao {
         log.info("getByEmail");
         try {
             User user = jdbcTemplate.queryForObject(
-                    GET_BY_EMAIL, new Object[]{email}, new UserRowMapper());
+                    Query.GET_BY_EMAIL, new Object[]{email}, new UserRowMapper());
             return user;
         } catch (EmptyResultDataAccessException e) {
-            return null;
+            log.info("getByEmail : EmptyResultDataAccessException");
+            throw e;
         }
     }
 }

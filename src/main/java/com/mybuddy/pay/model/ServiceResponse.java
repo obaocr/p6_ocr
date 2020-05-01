@@ -1,5 +1,9 @@
 package com.mybuddy.pay.model;
 
+/**
+ * ServiceResponse model
+ */
+
 public class ServiceResponse {
         private boolean result;
         private String message;
