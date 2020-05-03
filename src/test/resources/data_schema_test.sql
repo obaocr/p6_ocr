@@ -69,6 +69,7 @@ create table  P6_OPERATION (
                                BENEFICIARY_ID BIGINT ,
                                BIC_BENEF VARCHAR(10),
                                IBAN_BENEF VARCHAR(23),
+                               BILLING_FLG CHAR(1) DEFAULT '0' NOT NULL,
                                CREATE_DATE TIMESTAMP DEFAULT NOW(),
                                UPDATE_DATE TIMESTAMP DEFAULT NOW(),
                                CONSTRAINT FK_OPERATION_ACCOUNT  FOREIGN KEY(ACCOUNT_ID) REFERENCES P6_ACCOUNT(ID),

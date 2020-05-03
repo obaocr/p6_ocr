@@ -2,89 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/Util/CalculateAmountFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/RelationEmailRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/RelationEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AcccountUserDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RateDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RelationDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/model/ModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceIntgTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_report_plugin_3_0_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_report_parser_3_0_0_M2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/OperationRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/util/CalculateAmountFeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/OperationFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Query.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountUserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RateDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/AccountUserRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/AccountUserRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/RateFeeRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/RateFeeRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/UserRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/UserRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/AccountUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/AccountUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/RateFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/RateFee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Relation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/ServiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/ServiceResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/UserDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data_init_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data_init_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/data_schema_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data_schema_test.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/pay.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/constants/OperationFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/constants/OperationType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AcccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AcccountDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AcccountUserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AcccountUserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/AccountDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/OperationDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/OperationDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RateDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RateDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/RelationDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/dao/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/AccountUserRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/AccountUserRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/RateFeeRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/RateFeeRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/UserRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/mapper/UserRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/AccountUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/AccountUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/RateFee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/RateFee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Relation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/Relation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/ServiceResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/ServiceResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybuddy/pay/service/MainServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/pay.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/AccountDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/AccountDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/UserDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/UserDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/database/AppConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data_init_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data_init_test.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data_schema_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data_schema_test.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +71,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -156,7 +89,20 @@
       <recent name="com.mybuddy.pay.database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in pay">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.App" />
+      <module name="pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybuddy.pay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in pay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,64 +111,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainServiceIntgTest.transferToAnotherAccountKOInsufficientFund" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateAmountFeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.service.*" />
+          <option name="PATTERN" value="com.mybuddy.pay.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceIntgTest" />
-      <option name="METHOD_NAME" value="transferToAnotherAccountKOInsufficientFund" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainServiceIntgTest.transferToAnotherAccountShouldReturnException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceIntgTest" />
-      <option name="METHOD_NAME" value="transferToAnotherAccountShouldReturnException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceTest" />
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.util" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.util.CalculateAmountFeeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelTest.accountUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperationDaoImplTest.createOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.model.*" />
+          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.model" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.model.ModelTest" />
-      <option name="METHOD_NAME" value="accountUser" />
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.OperationDaoImplTest" />
+      <option name="METHOD_NAME" value="createOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationDaoImplTest.getOperationForBillingShouldReturn1Operation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.OperationDaoImplTest" />
+      <option name="METHOD_NAME" value="getOperationForBillingShouldReturn1Operation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.All in pay" />
-        <item itemvalue="JUnit.ModelTest.accountUser" />
-        <item itemvalue="JUnit.MainServiceTest" />
-        <item itemvalue="JUnit.MainServiceIntgTest.transferToAnotherAccountShouldReturnException" />
-        <item itemvalue="JUnit.MainServiceIntgTest.transferToAnotherAccountKOInsufficientFund" />
+        <item itemvalue="JUnit.OperationDaoImplTest.getOperationForBillingShouldReturn1Operation" />
+        <item itemvalue="JUnit.OperationDaoImplTest.createOperation" />
+        <item itemvalue="JUnit.CalculateAmountFeeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +199,8 @@
       <workItem from="1588317311218" duration="1660000" />
       <workItem from="1588319018549" duration="14485000" />
       <workItem from="1588334837906" duration="1173000" />
-      <workItem from="1588339122495" duration="15800000" />
+      <workItem from="1588339122495" duration="17945000" />
+      <workItem from="1588412489628" duration="16406000" />
     </task>
     <servers />
   </component>
@@ -294,11 +225,11 @@
     </state>
     <state x="871" y="290" width="1121" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1588169961877" />
     <state x="871" y="291" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1282@0.0.2560.1282" timestamp="1587648200054" />
-    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1588251757688">
+    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1588424074081">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state x="1035" y="255" key="#com.intellij.ide.util.MemberChooser/0.0.2556.1271@0.0.2556.1271" timestamp="1588014864053" />
-    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1276@0.0.2560.1276" timestamp="1588251757688" />
+    <state x="1037" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1276@0.0.2560.1276" timestamp="1588424074081" />
     <state x="1037" y="257" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1282@0.0.2560.1282" timestamp="1587823236979" />
     <state x="943" y="366" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587663056433">
       <screen x="0" y="0" width="2560" height="1282" />
@@ -343,34 +274,50 @@
       <screen x="0" y="0" width="2560" height="1282" />
     </state>
     <state x="1006" y="336" key="FileChooserDialogImpl/0.0.2560.1282@0.0.2560.1282" timestamp="1587643652482" />
-    <state width="2504" height="215" key="GridCell.Tab.0.bottom" timestamp="1588363885949">
+    <state width="2504" height="417" key="GridCell.Tab.0.bottom" timestamp="1588425895734">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.bottom/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588363885949" />
+    <state width="2504" height="417" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588425895734" />
     <state width="2504" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.bottom/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="215" key="GridCell.Tab.0.center" timestamp="1588363885949">
+    <state width="2504" height="417" key="GridCell.Tab.0.center" timestamp="1588425895734">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.center/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="215" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588363885949" />
+    <state width="2504" height="417" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588425895734" />
     <state width="2504" height="214" key="GridCell.Tab.0.center/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.center/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="215" key="GridCell.Tab.0.left" timestamp="1588363885949">
+    <state width="2504" height="417" key="GridCell.Tab.0.left" timestamp="1588425895734">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.left/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="215" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588363885949" />
+    <state width="2504" height="417" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588425895734" />
     <state width="2504" height="214" key="GridCell.Tab.0.left/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.left/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="215" key="GridCell.Tab.0.right" timestamp="1588363885949">
+    <state width="2504" height="417" key="GridCell.Tab.0.right" timestamp="1588425895734">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.right/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="215" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588363885949" />
+    <state width="2504" height="417" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588425895734" />
     <state width="2504" height="214" key="GridCell.Tab.0.right/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.right/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
+    <state width="2504" height="417" key="GridCell.Tab.1.bottom" timestamp="1588414283514">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state width="2504" height="417" key="GridCell.Tab.1.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588414283514" />
+    <state width="2504" height="417" key="GridCell.Tab.1.center" timestamp="1588414283514">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state width="2504" height="417" key="GridCell.Tab.1.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588414283514" />
+    <state width="2504" height="417" key="GridCell.Tab.1.left" timestamp="1588414283514">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state width="2504" height="417" key="GridCell.Tab.1.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588414283514" />
+    <state width="2504" height="417" key="GridCell.Tab.1.right" timestamp="1588414283514">
+      <screen x="0" y="0" width="2560" height="1276" />
+    </state>
+    <state width="2504" height="417" key="GridCell.Tab.1.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588414283514" />
     <state width="263" height="571" key="HiddenNamespacesPopup" timestamp="1588146741093">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
@@ -380,10 +327,10 @@
     </state>
     <state x="693" y="212" key="Maven.ArtifactSearchDialog/0.0.2560.1276@0.0.2560.1276" timestamp="1588153510081" />
     <state x="693" y="213" key="Maven.ArtifactSearchDialog/0.0.2560.1282@0.0.2560.1282" timestamp="1587667852078" />
-    <state x="667" y="178" key="SettingsEditor" timestamp="1588268672700">
+    <state x="667" y="178" key="SettingsEditor" timestamp="1588425348218">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state x="667" y="178" key="SettingsEditor/0.0.2560.1276@0.0.2560.1276" timestamp="1588268672700" />
+    <state x="667" y="178" key="SettingsEditor/0.0.2560.1276@0.0.2560.1276" timestamp="1588425348218" />
     <state x="906" y="219" key="SettingsEditor/0.0.2560.1282@0.0.2560.1282" timestamp="1587817330258" />
     <state x="906" y="220" key="SettingsEditor/0.0.2560.1286@0.0.2560.1286" timestamp="1588007528219" />
     <state x="771" y="307" key="Vcs.Push.Dialog.v2" timestamp="1587568382614">

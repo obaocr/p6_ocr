@@ -29,4 +29,14 @@ public class OperationDaoImplTest {
         assertTrue(operationDao.createOperation(operation) == 1);
     }
 
+    @Test
+    @Rollback
+    void getOperationForBillingShouldReturn1Operation() {
+        AccountUser accountUser =  accountUserDao.getByEmail("test1@gmail.com");
+        assertTrue(accountUser != null);
+        Operation operation = new Operation(accountUser.getId(), null, 100.00, 0.0, "PAYMENT","C", "description",null,null);
+        assertTrue(operationDao.createOperation(operation) == 1);
+        assertTrue(operationDao.getOperationForBilling().size() == 1);
+    }
+
 }

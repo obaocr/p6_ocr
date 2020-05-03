@@ -37,15 +37,14 @@ public class AppConfig {
     public DataSource dataSource() {
         // Password in environment variable
         String bdd_password = System.getenv("P6OCR_PWD");
-        log.info("bdd_password:"+bdd_password);
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName(env.getProperty("jdbc.driver"));
         ds.setUrl(env.getProperty("jdbc.url"));
         ds.setUsername(env.getProperty("jdbc.username"));
         ds.setPassword(bdd_password);
-        log.info("oracle.jdbc.driver.OracleDriver.class.getName():"+oracle.jdbc.driver.OracleDriver.class.getName());
+        log.info("driver:"+oracle.jdbc.driver.OracleDriver.class.getName());
         log.info("env.username:"+env.getProperty("jdbc.username"));
-        log.info("env.password:"+env.getProperty("jdbc.password"));
+        log.info("env.password:*****");
         log.info("env.url:"+env.getProperty("jdbc.url"));
         return ds;
     }

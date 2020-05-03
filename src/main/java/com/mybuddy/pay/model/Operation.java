@@ -18,6 +18,7 @@ public class Operation {
     private String description;
     private String bicBenef;
     private String ibanBenef;
+    private String billingFlg;
     private Date createDate;
     private Date updateDate;
 
@@ -147,4 +148,11 @@ public class Operation {
         this.updateDate = updateDate != null ? new Date(updateDate.getTime()) : null;
     }
 
+    public String getBillingFlg() {
+        return billingFlg;
+    }
+
+    public void setBillingFlg(String billingFlg) {
+        this.billingFlg = billingFlg;
+    }
 }
