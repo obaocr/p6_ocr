@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/mapper/OperationRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/util/CalculateAmountFeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/constants/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/model/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data_schema_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data_schema_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +186,7 @@
       <workItem from="1588319018549" duration="14485000" />
       <workItem from="1588334837906" duration="1173000" />
       <workItem from="1588339122495" duration="17945000" />
-      <workItem from="1588412489628" duration="16406000" />
+      <workItem from="1588412489628" duration="16756000" />
     </task>
     <servers />
   </component>

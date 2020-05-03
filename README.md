@@ -31,6 +31,10 @@ https://maven.apache.org/install.html
 
 https://spring.io
 
+### Documentation
+
+![UML diagram](/img/P6_UML_Diagram.jpg)
+
 ### Testing
 
 The app has unit tests and integration tests written. The existing tests need to be triggered from maven-surefire plugin while we try to generate the final executable jar file.
