@@ -9,7 +9,6 @@ import org.apache.logging.log4j.Logger;
  */
 
 public class CalculateAmountFee {
-
     private static final Logger log = LogManager.getLogger(MainServiceImpl.class);
 
     public static Double calculateFee(Double rate, Double amount) {

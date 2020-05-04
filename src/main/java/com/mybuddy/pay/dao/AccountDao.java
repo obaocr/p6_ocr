@@ -9,5 +9,5 @@ import java.sql.SQLException;
  */
 
 public interface AccountDao {
-         public Integer updateBalance (Long Id, Double amount) throws IllegalAccessException, SQLException;
+         public Integer updateBalance (Long Id, Double amount) ;
 }

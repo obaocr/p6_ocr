@@ -1,5 +1,6 @@
 package com.mybuddy.pay.dao;
 
+import com.mybuddy.pay.Util.MyUncheckedCustomException;
 import com.mybuddy.pay.constants.Query;
 import com.mybuddy.pay.mapper.RelationEmailRowMapper;
 import com.mybuddy.pay.model.RelationEmail;
@@ -25,7 +26,12 @@ public class RelationDaoImpl implements RelationDao {
     }
 
     public Integer addRelationById(long userId, long relationId) {
-        return jdbcTemplate.update(Query.INS_REL, userId, relationId);
+        Integer nbIns =  jdbcTemplate.update(Query.INS_REL, userId, relationId);
+        if(nbIns == null || nbIns == 0 ) {
+            log.error("addRelationById : no row created !");
+            throw new MyUncheckedCustomException("addRelationById : no row created !");
+        }
+        return nbIns;
     }
 
     public List<RelationEmail> getRelations(long userId) {

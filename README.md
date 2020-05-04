@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 - Java 1.8
-- Oracle 12.2.X
+- Oracle 12.2.X 
 - Maven 3.6.3
 - Spring 5.2.5
 
@@ -31,7 +31,10 @@ https://maven.apache.org/install.html
 
 https://spring.io
 
-### Documentation
+4. Install Oracle ((Oracle XE https://www.oracle.com/fr/database/technologies/appdev/xe.html) and create a database "XE" and a schema (User "OCR_P6"), then ruen the SQL script data_schema.sql to create the tables.
+You can populate the database with the script data_init.sql.
+
+### Documentation : UML Diagram - conceptual data model
 
 ![UML diagram](/img/P6_UML_Diagram.jpg)
 

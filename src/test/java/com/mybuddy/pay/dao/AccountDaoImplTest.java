@@ -42,7 +42,7 @@ class AccountDaoImplTest {
             long id = 0;
             accountDao.updateBalance(id, 999.00);
         } catch (Exception e) {
-            assertTrue(e.getMessage() != null);
+            assertTrue(e.getMessage().contains("updateBalance : no row updated !"));
         }
 
     }

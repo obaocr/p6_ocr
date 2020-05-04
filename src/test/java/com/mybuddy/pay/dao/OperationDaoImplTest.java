@@ -39,4 +39,20 @@ public class OperationDaoImplTest {
         assertTrue(operationDao.getOperationForBilling().size() == 1);
     }
 
+    @Test
+    @Rollback
+    void getOperationForBillingShouldReturnException() {
+        try {
+            AccountUser accountUser =  accountUserDao.getByEmail("test1@gmail.com");
+            assertTrue(accountUser != null);
+            // Exception car FK inexistante !
+            long id = 0;
+            Operation operation = new Operation(accountUser.getId(), id, 100.00, 0.0, "PAYMENT","C", "description",null,null);
+            assertTrue(operationDao.createOperation(operation) == 1);
+        } catch (Exception e) {
+            assertTrue(e.getMessage() != null);
+        }
+
+    }
+
 }

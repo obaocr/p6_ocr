@@ -2,6 +2,8 @@ package com.mybuddy.pay.service;
 
 import com.mybuddy.pay.AppConfigTest;
 import com.mybuddy.pay.constants.Message;
+import com.mybuddy.pay.dao.AccountUserDao;
+import com.mybuddy.pay.dao.OperationDao;
 import com.mybuddy.pay.model.ServiceResponse;
 import com.mybuddy.pay.model.User;
 import org.junit.jupiter.api.Test;
@@ -19,6 +21,12 @@ class MainServiceIntgTest {
     @Autowired
     MainService mainService;
 
+    @Autowired
+    OperationDao operationDao;
+
+    @Autowired
+    AccountUserDao accountUserDao;
+
     @Rollback
     @Test
     void login() {
@@ -34,13 +42,9 @@ class MainServiceIntgTest {
     @Rollback
     @Test
     void addRelationByEmail() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse = mainService.addRelationByEmail(user.getId(), "test2@gmail.com");
-            assertTrue(serviceResponse.isResult() == true);
-        } catch (Exception e) {
-
-        }
+        User user = mainService.login("test1@gmail.com", "A123");
+        ServiceResponse serviceResponse = mainService.addRelationByEmail(user.getId(), "test2@gmail.com");
+        assertTrue(serviceResponse.isResult() == true);
     }
 
     @Rollback
@@ -56,13 +60,11 @@ class MainServiceIntgTest {
     @Rollback
     @Test
     void creditAcccount() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
-            assertTrue(serviceResponse.isResult() == true);
-        } catch (Exception e) {
+        User user = mainService.login("test1@gmail.com", "A123");
+        ServiceResponse serviceResponse = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
+        assertTrue(serviceResponse.isResult() == true);
+        assertTrue(accountUserDao.getByUserId(user.getId()).getBalance() == 888.00);
 
-        }
     }
 
     @Rollback
@@ -78,84 +80,78 @@ class MainServiceIntgTest {
     @Rollback
     @Test
     void externalTransferAccount() {
-        try {
-            User user = mainService.login("test6@gmail.com", "A123");
-            ServiceResponse serviceResponse = mainService.externalTransferAccount(user.getId(), 1000.00, "test externalTransferAccount");
-            assertTrue(serviceResponse.isResult() == true);
+        User user = mainService.login("test6@gmail.com", "A123");
+        ServiceResponse serviceResponse = mainService.externalTransferAccount(user.getId(), 1000.00, "test externalTransferAccount");
+        assertTrue(serviceResponse.isResult() == true);
 
-        } catch (Exception e) {
-
-        }
     }
 
     @Rollback
     @Test
     void externalTransferAccountInsufficientFund() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse = mainService.externalTransferAccount(user.getId(), 1000.00, "test externalTransferAccount");
-            assertTrue(serviceResponse.isResult() == false);
-            assertTrue(serviceResponse.getMessage().contains(Message.MSG_ERR_002));
+        int nbOpe = operationDao.getOperationForBilling().size();
+        User user = mainService.login("test1@gmail.com", "A123");
+        Double balance = accountUserDao.getByUserId(user.getId()).getBalance();
+        ServiceResponse serviceResponse = mainService.externalTransferAccount(user.getId(), 1000.00, "test externalTransferAccount");
+        assertTrue(serviceResponse.isResult() == false);
+        assertTrue(serviceResponse.getMessage().contains(Message.MSG_ERR_002));
+        assertTrue(nbOpe == operationDao.getOperationForBilling().size());
+        assertTrue(balance == accountUserDao.getByUserId(user.getId()).getBalance());
 
-        } catch (Exception e) {
-
-        }
     }
 
     @Rollback
     @Test
     void externalTransferAccountShouldReturnException() {
+        int nbOpe = operationDao.getOperationForBilling().size();
         try {
             ServiceResponse serviceResponse = mainService.externalTransferAccount(0, 1000.00, "test externalTransferAccount");
         } catch (Exception e) {
             assertTrue(e.getMessage() != null);
+            assertTrue(nbOpe == operationDao.getOperationForBilling().size());
         }
     }
 
     @Rollback
     @Test
     void transferToAnotherAccount() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
-            ServiceResponse serviceResponse2 = mainService.addRelationByEmail(user.getId(), "test2@gmail.com");
-            ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
-            System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
-            assertTrue(serviceResponse3.isResult() == true);
-            assertTrue(serviceResponse3.getMessage().contains(Message.MSG_INFO_004));
-        } catch (Exception e) {
-
-        }
+        User user = mainService.login("test1@gmail.com", "A123");
+        ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
+        ServiceResponse serviceResponse2 = mainService.addRelationByEmail(user.getId(), "test2@gmail.com");
+        ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
+        System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
+        assertTrue(serviceResponse3.isResult() == true);
+        assertTrue(serviceResponse3.getMessage().contains(Message.MSG_INFO_004));
     }
 
     @Rollback
     @Test
     void transferToAnotherAccountKORelationNotExists() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
-            ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
-            System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
-            assertTrue(serviceResponse3.isResult() == false);
-            assertTrue(serviceResponse3.getMessage().contains(Message.MSG_ERR_003));
-        } catch (Exception e) {
 
-        }
+        User user = mainService.login("test1@gmail.com", "A123");
+        ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 888.00, "test creditAcccount");
+        Double balance = accountUserDao.getByUserId(user.getId()).getBalance();
+        ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
+        System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
+        assertTrue(serviceResponse3.isResult() == false);
+        assertTrue(serviceResponse3.getMessage().contains(Message.MSG_ERR_003));
+        assertTrue(balance == accountUserDao.getByUserId(user.getId()).getBalance());
     }
 
     @Rollback
     @Test
     void transferToAnotherAccountKOInsufficientFund() {
-        try {
-            User user = mainService.login("test1@gmail.com", "A123");
-            ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 10.00, "test creditAcccount");
-            ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
-            System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
-            assertTrue(serviceResponse3.isResult() == false);
-            assertTrue(serviceResponse3.getMessage().contains(Message.MSG_ERR_002));
-        } catch (Exception e) {
-
-        }
+        User user = mainService.login("test1@gmail.com", "A123");
+        ServiceResponse serviceResponse1 = mainService.creditAccount(user.getId(), 10.00, "test creditAcccount");
+        int nbOpe = operationDao.getOperationForBilling().size();
+        Double balance = accountUserDao.getByUserId(user.getId()).getBalance();
+        ServiceResponse serviceResponse3 = mainService.transferToAnotherAccount(user.getId(), "test2@gmail.com", 100.00, "test externalTransferAccount");
+        System.out.println("serviceResponse2.getMessage():" + serviceResponse3.getMessage());
+        assertTrue(serviceResponse3.isResult() == false);
+        assertTrue(serviceResponse3.getMessage().contains(Message.MSG_ERR_002));
+        System.out.println("nb..." + nbOpe + "/" + operationDao.getOperationForBilling().size());
+        assertTrue(nbOpe == operationDao.getOperationForBilling().size());
+        assertTrue(balance == accountUserDao.getByUserId(user.getId()).getBalance());
     }
 
     @Rollback
