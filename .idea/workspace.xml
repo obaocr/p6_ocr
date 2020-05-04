@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/Util/MyUncheckedCustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/Util/CalculateAmountFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/Util/CalculateAmountFee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AcccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/OperationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/RelationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceIntgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceIntgTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +189,7 @@
       <workItem from="1588339122495" duration="17945000" />
       <workItem from="1588412489628" duration="17490000" />
       <workItem from="1588578534711" duration="3842000" />
-      <workItem from="1588586080176" duration="12976000" />
+      <workItem from="1588586080176" duration="13827000" />
     </task>
     <servers />
   </component>
