@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e417a9d3-86a1-467f-bfd2-04c88fd23301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2020-05/spring-logger-log4j2--07-mai-2020-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring-logger-log4j2.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pay.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybuddy/pay/service/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data_schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AcccountUserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AcccountUserDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/AccountDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/OperationDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RateDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RateDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RelationDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/RelationDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/dao/UserDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mybuddy/pay/service/MainServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/RelationDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/dao/RelationDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/service/MainServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mybuddy/pay/service/MainServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +95,16 @@
       <recent name="com.mybuddy.pay.database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainServiceIntgTest">
-    <configuration name="MainServiceIntgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in pay">
+    <configuration name="All in pay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pay" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServiceTest.addRelationByEmailShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +113,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceIntgTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceTest" />
+      <option name="METHOD_NAME" value="addRelationByEmailShouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServiceTest.addRelationByEmailShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybuddy.pay.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceTest" />
+      <option name="METHOD_NAME" value="addRelationByEmailShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,58 +152,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainServiceTest.externalTransferAccountShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
+          <option name="PATTERN" value="com.mybuddy.pay.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.RateDaoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelationDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.RelationDaoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybuddy.pay.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybuddy.pay.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.dao.UserDaoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.mybuddy.pay.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mybuddy.pay.service.MainServiceTest" />
+      <option name="METHOD_NAME" value="externalTransferAccountShouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainServiceIntgTest" />
+        <item itemvalue="JUnit.All in pay" />
+        <item itemvalue="JUnit.MainServiceTest.externalTransferAccountShouldReturnFalse" />
+        <item itemvalue="JUnit.MainServiceTest.addRelationByEmailShouldReturnFalse" />
+        <item itemvalue="JUnit.MainServiceTest.addRelationByEmailShouldReturnTrue" />
         <item itemvalue="JUnit.MainServiceTest.creditAccountShouldReturnTrue" />
-        <item itemvalue="JUnit.UserDaoImplTest" />
-        <item itemvalue="JUnit.RelationDaoImplTest" />
-        <item itemvalue="JUnit.RateDaoImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +224,7 @@
       <workItem from="1588783448377" duration="1495000" />
       <workItem from="1588835765442" duration="746000" />
       <workItem from="1588837607622" duration="1439000" />
-      <workItem from="1588839067003" duration="10870000" />
+      <workItem from="1588839067003" duration="19852000" />
     </task>
     <servers />
   </component>
@@ -301,50 +298,50 @@
       <screen x="0" y="0" width="2560" height="1282" />
     </state>
     <state x="1006" y="336" key="FileChooserDialogImpl/0.0.2560.1282@0.0.2560.1282" timestamp="1587643652482" />
-    <state width="2504" height="301" key="GridCell.Tab.0.bottom" timestamp="1588848699929">
+    <state width="2504" height="204" key="GridCell.Tab.0.bottom" timestamp="1588857666669">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.bottom/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="301" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588848699929" />
+    <state width="2504" height="204" key="GridCell.Tab.0.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588857666669" />
     <state width="2504" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.bottom/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="301" key="GridCell.Tab.0.center" timestamp="1588848699929">
+    <state width="2504" height="204" key="GridCell.Tab.0.center" timestamp="1588857666668">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.center/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="301" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588848699929" />
+    <state width="2504" height="204" key="GridCell.Tab.0.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588857666668" />
     <state width="2504" height="214" key="GridCell.Tab.0.center/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.center/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="301" key="GridCell.Tab.0.left" timestamp="1588848699929">
+    <state width="2504" height="204" key="GridCell.Tab.0.left" timestamp="1588857666668">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.left/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="301" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588848699929" />
+    <state width="2504" height="204" key="GridCell.Tab.0.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588857666668" />
     <state width="2504" height="214" key="GridCell.Tab.0.left/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.left/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="301" key="GridCell.Tab.0.right" timestamp="1588848699929">
+    <state width="2504" height="204" key="GridCell.Tab.0.right" timestamp="1588857666669">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
     <state width="2500" height="401" key="GridCell.Tab.0.right/0.0.2556.1271@0.0.2556.1271" timestamp="1588016701968" />
-    <state width="2504" height="301" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588848699929" />
+    <state width="2504" height="204" key="GridCell.Tab.0.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588857666669" />
     <state width="2504" height="214" key="GridCell.Tab.0.right/0.0.2560.1282@0.0.2560.1282" timestamp="1587825765141" />
     <state width="2504" height="297" key="GridCell.Tab.0.right/0.0.2560.1291@0.0.2560.1291" timestamp="1588009161382" />
-    <state width="2504" height="417" key="GridCell.Tab.1.bottom" timestamp="1588535854689">
+    <state width="2504" height="417" key="GridCell.Tab.1.bottom" timestamp="1588856429006">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="417" key="GridCell.Tab.1.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588535854689" />
-    <state width="2504" height="417" key="GridCell.Tab.1.center" timestamp="1588535854689">
+    <state width="2504" height="417" key="GridCell.Tab.1.bottom/0.0.2560.1276@0.0.2560.1276" timestamp="1588856429006" />
+    <state width="2504" height="417" key="GridCell.Tab.1.center" timestamp="1588856429006">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="417" key="GridCell.Tab.1.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588535854689" />
-    <state width="2504" height="417" key="GridCell.Tab.1.left" timestamp="1588535854689">
+    <state width="2504" height="417" key="GridCell.Tab.1.center/0.0.2560.1276@0.0.2560.1276" timestamp="1588856429006" />
+    <state width="2504" height="417" key="GridCell.Tab.1.left" timestamp="1588856429005">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="417" key="GridCell.Tab.1.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588535854689" />
-    <state width="2504" height="417" key="GridCell.Tab.1.right" timestamp="1588535854689">
+    <state width="2504" height="417" key="GridCell.Tab.1.left/0.0.2560.1276@0.0.2560.1276" timestamp="1588856429005" />
+    <state width="2504" height="417" key="GridCell.Tab.1.right" timestamp="1588856429006">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>
-    <state width="2504" height="417" key="GridCell.Tab.1.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588535854689" />
+    <state width="2504" height="417" key="GridCell.Tab.1.right/0.0.2560.1276@0.0.2560.1276" timestamp="1588856429006" />
     <state width="263" height="571" key="HiddenNamespacesPopup" timestamp="1588146741093">
       <screen x="0" y="0" width="2560" height="1276" />
     </state>

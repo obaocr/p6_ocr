@@ -1,12 +1,9 @@
 package com.mybuddy.pay.dao;
 
 import com.mybuddy.pay.AppConfigTest;
-import com.mybuddy.pay.model.AccountUser;
-import com.mybuddy.pay.model.RateFee;
 import com.mybuddy.pay.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 import org.springframework.transaction.annotation.Transactional;
