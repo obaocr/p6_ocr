@@ -25,6 +25,7 @@ public class UserDaoImpl implements UserDao {
     @Override
     public User getByEmail(String email) {
         log.info("getByEmail");
+
         try {
             User user = jdbcTemplate.queryForObject(
                     Query.GET_BY_EMAIL, new Object[]{email}, new UserRowMapper());

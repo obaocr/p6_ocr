@@ -18,10 +18,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class RelationDaoImplTest {
 
     @Autowired
-    RelationDao relationDao;
+    private RelationDao relationDao;
 
     @Autowired
-    UserDao userDao;
+    private UserDao userDao;
 
     @Test
     @Rollback

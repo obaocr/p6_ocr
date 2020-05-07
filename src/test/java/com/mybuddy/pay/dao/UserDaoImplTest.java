@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class UserDaoImplTest {
 
     @Autowired
-    UserDao userDao;
+    private UserDao userDao;
 
     @Test
     @Rollback

@@ -15,10 +15,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class AccountDaoImplTest {
 
     @Autowired
-    AccountUserDao accountUserDao;
+    private AccountUserDao accountUserDao;
 
     @Autowired
-    AccountDao accountDao;
+    private AccountDao accountDao;
 
     @Test
     @Rollback

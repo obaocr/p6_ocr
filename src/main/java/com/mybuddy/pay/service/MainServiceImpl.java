@@ -1,6 +1,7 @@
 package com.mybuddy.pay.service;
 
 import com.mybuddy.pay.Util.CalculateAmountFee;
+import com.mybuddy.pay.Util.MyUncheckedCustomException;
 import com.mybuddy.pay.constants.Message;
 import com.mybuddy.pay.dao.*;
 import com.mybuddy.pay.model.AccountUser;
@@ -22,20 +23,20 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class MainServiceImpl implements MainService {
+public class MainServiceImpl implements MainService  {
 
     @Autowired
-    UserDao userDao;
+    private UserDao userDao;
     @Autowired
-    AccountUserDao accountUserDao;
+    private AccountUserDao accountUserDao;
     @Autowired
-    AccountDao accountDao;
+    private AccountDao accountDao;
     @Autowired
-    RelationDao relationDao;
+    private RelationDao relationDao;
     @Autowired
-    OperationDao operationDao;
+    private OperationDao operationDao;
     @Autowired
-    RateDao rateDao;
+    private RateDao rateDao;
 
     private static final Logger log = LogManager.getLogger(MainServiceImpl.class);
 

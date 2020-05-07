@@ -31,7 +31,7 @@ https://maven.apache.org/install.html
 
 https://spring.io
 
-4. Install Oracle ((Oracle XE https://www.oracle.com/fr/database/technologies/appdev/xe.html) and create a database "XE" and a schema (User "OCR_P6"), then ruen the SQL script data_schema.sql to create the tables.
+4. Install Oracle (Oracle XE https://www.oracle.com/fr/database/technologies/appdev/xe.html) and create a database "XE" and a schema (User "OCR_P6"), then run the SQL script data_schema.sql to create the tables.
 You can populate the database with the script data_init.sql.
 
 ### Documentation : UML Diagram - conceptual data model

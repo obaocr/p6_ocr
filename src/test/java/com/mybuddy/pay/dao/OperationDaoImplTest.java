@@ -16,9 +16,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class OperationDaoImplTest {
 
     @Autowired
-    OperationDao operationDao;
+    private OperationDao operationDao;
     @Autowired
-    AccountUserDao accountUserDao;
+    private AccountUserDao accountUserDao;
 
     @Test
     @Rollback
