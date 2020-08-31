@@ -2,26 +2,6 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
-      <option name="id" value="public-mirror" />
-      <option name="name" value="public-mirror" />
-      <option name="url" value="https://afa-nrepo.azure-paas.intraxa/repository/maven-group/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://afa-nrepo.azure-paas.intraxa/repository/maven-group/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="snapshots-mirror" />
-      <option name="name" value="snapshots-mirror" />
-      <option name="url" value="https://afa-nrepo.azure-paas.intraxa/repository/maven-group/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="releases-mirror" />
-      <option name="name" value="releases-mirror" />
-      <option name="url" value="https://afa-nrepo.azure-paas.intraxa/repository/maven-group/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
